@@ -71,10 +71,10 @@ hr {
   border: 0;
 }
 /* Navigation */
-#menu {
+/* #menu {
   padding: 15px;
   transition: all 0.8s;
-}
+} */
 #menu.navbar-default {
   background-color:#612A60;
   border-color:#612A60;
@@ -624,4 +624,30 @@ label {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border-color: #FFFFFF;
+}
+
+@media (min-width: 992px){
+  .container.header {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+   
+  }
+}
+@media (max-width: 768px){
+  #menu{
+    padding: 15px;
+  }
+  .main-logo{
+    margin-top: -14px;
+  }
+  
+}
+@media (max-width: 992px){
+  .container.header {
+    width: 100% !important;
+  }
+
+  #menu.navbar-default .navbar-nav > li > a{
+    font-size: 12px;
+  }
 }
