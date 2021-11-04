@@ -12,23 +12,24 @@ import JsonData from "./data/data.json";
 import "./App.css";
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+	const [landingPageData, setLandingPageData] = useState({});
+	useEffect(() => {
+		setLandingPageData(JsonData);
+	}, []);
 
-  return (
-    <div>
-      <Navigation/>
-      <Header data={landingPageData.Header} />
-      <Values data={landingPageData.Values} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
-  );
+  	return (
+		<div>
+		<Navigation data={landingPageData}/>
+		<Navigation data={landingPageData}/>
+		<Header data={landingPageData.Header} />
+		<Values data={landingPageData.Values} />
+		<About data={landingPageData.About} />
+		<Services data={landingPageData.Services} />
+		<Testimonials data={landingPageData.Testimonials} />
+		<Team data={landingPageData.Team} />
+		<Contact data={landingPageData.Contact} />
+		</div>
+  	);
 };
 
 export default App;

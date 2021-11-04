@@ -11,7 +11,7 @@ export const Team = (props) => {
         </div>
         <div id='row'>
           {props.data
-            ? props.data.map((d, i) => (
+            ? props.data.team.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
                   <div className='thumbnail'>
                     {' '}
