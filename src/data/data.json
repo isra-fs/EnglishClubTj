@@ -11,6 +11,10 @@
   
   "Header": {
     "link":"#home",
+    "readyToLearn":"Ready To Learn",
+    "lets":"Let's",
+    "talk":"Talk",
+    "sign_up":"Sign Up",
     "title": "English club",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },

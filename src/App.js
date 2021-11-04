@@ -20,7 +20,6 @@ const App = () => {
   	return (
 		<div>
 		<Navigation data={landingPageData}/>
-		<Navigation data={landingPageData}/>
 		<Header data={landingPageData.Header} />
 		<Values data={landingPageData.Values} />
 		<About data={landingPageData.About} />

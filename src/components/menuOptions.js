@@ -7,8 +7,7 @@ export const MenuOptions = props =>{
                 <li  key={index} >
                     <a href= {option.link} 
                         className='page-scroll'  
-                        data-toggle={"collapse"}
-                        data-target={"#bs-example-navbar-collapse-1"}>
+                        >
                         {option.title}
                     </a>
                 </li>
