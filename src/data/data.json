@@ -1,11 +1,12 @@
 {
   "HeaderLinks":[
     { "link":"#about","title":"About"},
+    { "link":"#services","title":"Services"},
     { "link":"#testimonials","title":"Testimonials"},
     { "link":"#team","title":"Team"},
     { "link":"#contact","title":"Contact"},
     { "link":"#values","title":"Values"},
-    { "link":"#services","title":"Services"},
+  
     { "link":"#clases","title":"Clases"}
   ],
   
@@ -36,35 +37,27 @@
   },
   "Services": {
    "link":"#about",
+   "title":"Our Services",
+   "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
    "services":[
       {
-        "icon": "fa fa-wordpress",
-        "name": "Lorem ipsum dolor",
+        "icon": "englishClases.svg",
+        "name": "English Language Courses",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
       },
       {
-        "icon": "fa fa-cart-arrow-down",
-        "name": "Consectetur adipiscing",
+        "icon": "spanishClases.svg",
+        "name": "Spanish Language Courses",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
       },
       {
-        "icon": "fa fa-cloud-download",
-        "name": "Lorem ipsum dolor",
+        "icon": "academic.svg",
+        "name": "Academic leveling",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
       },
       {
-        "icon": "fa fa-language",
-        "name": "Consectetur adipiscing",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-      },
-      {
-        "icon": "fa fa-plane",
-        "name": "Lorem ipsum dolor",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-      },
-      {
-        "icon": "fa fa-pie-chart",
-        "name": "Consectetur adipiscing",
+        "icon": "children.svg",
+        "name": "English for young children (ages 4 and up)",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
       }
     ]

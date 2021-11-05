@@ -14,20 +14,27 @@ import "./App.css";
 const App = () => {
 	const [landingPageData, setLandingPageData] = useState({});
 	useEffect(() => {
-		setLandingPageData(JsonData);
+		setLandingPageData(JsonData); 
+		console.log("$$",Object.entries(landingPageData))
 	}, []);
 
   	return (
 		<div>
-		<Navigation data={landingPageData}/>
-		<Header data={landingPageData.Header} />
-		<Values data={landingPageData.Values} />
-		<About data={landingPageData.About} />
-		<Services data={landingPageData.Services} />
-		<Testimonials data={landingPageData.Testimonials} />
-		<Team data={landingPageData.Team} />
-		<Contact data={landingPageData.Contact} />
-		</div>
+		{Object.entries(landingPageData).length >0 ?
+			<div>
+				<Navigation data={landingPageData}/>
+				<Header data={landingPageData.Header} />
+				<Services data={landingPageData.Services} />
+				<Values data={landingPageData.Values} />
+				<About data={landingPageData.About} />
+				
+				<Testimonials data={landingPageData.Testimonials} />
+				<Team data={landingPageData.Team} />
+				<Contact data={landingPageData.Contact} />
+			</div>
+		:null
+		}
+	   </div>
   	);
 };
 
