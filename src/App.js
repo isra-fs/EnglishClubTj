@@ -4,6 +4,7 @@ import { Header } from "./components/header";
 import { Values } from "./components/values";
 import { About } from "./components/about";
 import { Services } from "./components/services";
+import { Clases } from "./components/clases";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
  import { Contact } from "./components/contact";
@@ -15,7 +16,6 @@ const App = () => {
 	const [landingPageData, setLandingPageData] = useState({});
 	useEffect(() => {
 		setLandingPageData(JsonData); 
-		console.log("$$",Object.entries(landingPageData))
 	}, []);
 
   	return (
@@ -25,9 +25,9 @@ const App = () => {
 				<Navigation data={landingPageData}/>
 				<Header data={landingPageData.Header} />
 				<Services data={landingPageData.Services} />
+				<Clases data={landingPageData.Clases} />
 				<Values data={landingPageData.Values} />
 				<About data={landingPageData.About} />
-				
 				<Testimonials data={landingPageData.Testimonials} />
 				<Team data={landingPageData.Team} />
 				<Contact data={landingPageData.Contact} />

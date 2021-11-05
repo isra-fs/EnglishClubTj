@@ -1,6 +1,6 @@
 /* Services Section */
 #services {
-    padding: 100px 0;
+    padding: 100px 0px 0px 0px;
     background: #F6871F;
     color: #fff;
   }
@@ -40,6 +40,9 @@
   }
   #services .service-desc {
     margin-bottom: 40px;
+  }
+  #services .row.services-info{
+    margin-bottom: 50px;
   }
   @media (min-width: 1200px){
     #services > .container {

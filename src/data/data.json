@@ -2,12 +2,11 @@
   "HeaderLinks":[
     { "link":"#about","title":"About"},
     { "link":"#services","title":"Services"},
+	{ "link":"#clases","title":"Clases"},
     { "link":"#testimonials","title":"Testimonials"},
     { "link":"#team","title":"Team"},
     { "link":"#contact","title":"Contact"},
-    { "link":"#values","title":"Values"},
-  
-    { "link":"#clases","title":"Clases"}
+    { "link":"#values","title":"Values"}    
   ],
   
   "Header": {
@@ -36,7 +35,7 @@
     ]
   },
   "Services": {
-   "link":"#about",
+   "link":"#services",
    "title":"Our Services",
    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
    "services":[
@@ -62,6 +61,38 @@
       }
     ]
   },
+  "Clases": {
+    "link":"#clases",
+    "title":"Clases",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+    "clases":[
+       {
+         "icon": "englishClases.svg",
+         "name": "Personalized",
+         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+       },
+       {
+         "icon": "spanishClases.svg",
+         "name": "Intensive",
+         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+       },
+       {
+         "icon": "academic.svg",
+         "name": "Business English",
+         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+       },
+       {
+         "icon": "children.svg",
+         "name": "Business Spanish",
+         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+       },
+	   {
+		"icon": "children.svg",
+		"name": "Workshops for Businesses",
+		"text": "Personalized to the required type of business."
+	  }
+     ]
+   },
   "Testimonials": {
     "link":"#testimonials",
     "testimonials":[
