@@ -1,7 +1,7 @@
 {
   "HeaderLinks":[
-    { "link":"about","title":"About"},
     { "link":"services","title":"Services"},
+    { "link":"about","title":"About"},
 	  { "link":"clases","title":"Clases"},
     { "link":"contact","title":"Contact"}  
   ],
@@ -16,19 +16,30 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
+    "title":"About Us",
+    "labelMision":"Mission",
+    "labelMotivation":"Motivation",
+    "labelTeachingMethod":"Teaching Method",
+    "labelOurCompanyIdeology":"Our Company Ideology",
     "link":"#about",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+    "mission":"To teach with great dedication and responsibility to all the people that desire to obtain new communication abilities which will allow them to obtain better development opportunities in their personal and professional lives.",
+    "aboutUs": "We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "motivation": [
+      "Our students that recommend us to family and friends.",
+      "Our commercial partners that trust us with tutoring their collaborators.",
+      "Our teachers, which feel proud to be part of our team.",
+      "Serving our community, satisfying the need to communicate in a second language as part of their everyday lives in the biggest and busiest border in the world."
     ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+    "ourCompanyIdeology": [
+      "If you can dream it, you can do it!  Walt Disney.",
+      "The measure of who we are is what we do with what we have! Vince Lombardi.",
+      "The best wat to predict the future is to create it!  Abraham Lincoln."
+    ],
+    "teachingMethod":[
+      "We develop the four essential abilities for communication, we begin with the listening ability to subsequently speak, read and write",
+      "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
+      "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
+      "We use World Link supportive teaching materials."
     ]
   },
   "Services": {
