@@ -46,6 +46,9 @@
     bottom:0;
     position:absolute;
 }
+#menu.navbar-default .navbar-nav > li > a.active{
+    border-bottom: 1px solid #F6871F;
+}
 
 @media (min-width: 1290px){
     .col-md-4.header-title >h2{
@@ -80,6 +83,7 @@
         width: 45%;
         z-index: 99;
     }
+   
 }
 @media (max-width: 490px){
     .col-md-4.header-title >h2{
@@ -92,5 +96,3 @@
     }
 
 }
-
-

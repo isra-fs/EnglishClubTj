@@ -28,9 +28,9 @@ const App = () => {
 				<About data={landingPageData.About} />
 				<Services data={landingPageData.Services} />
 				<Clases data={landingPageData.Clases} />
-				<Values data={landingPageData.Values} />
-				<Testimonials data={landingPageData.Testimonials} />
-				<Team data={landingPageData.Team} />
+				{/* <Values data={landingPageData.Values} /> */}
+				{/* <Testimonials data={landingPageData.Testimonials} /> */}
+				{/* <Team data={landingPageData.Team} /> */}
 				<Contact data={landingPageData.Contact} />
 				<Footer data={landingPageData.Footer}/>
 			</div>
@@ -39,5 +39,9 @@ const App = () => {
 	   </div>
   	);
 };
-
+/**
+ * { "link":"#testimonials","title":"Testimonials"},
+{ "link":"#team","title":"Team"},
+{ "link":"#values","title":"Values"} ,
+ */
 export default App;

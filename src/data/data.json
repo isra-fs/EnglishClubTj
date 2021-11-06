@@ -1,12 +1,9 @@
 {
   "HeaderLinks":[
-    { "link":"#about","title":"About"},
-    { "link":"#services","title":"Services"},
-	  { "link":"#clases","title":"Clases"},
-    { "link":"#testimonials","title":"Testimonials"},
-    { "link":"#team","title":"Team"},
-    { "link":"#values","title":"Values"} ,
-    { "link":"#contact","title":"Contact"}  
+    { "link":"about","title":"About"},
+    { "link":"services","title":"Services"},
+	  { "link":"clases","title":"Clases"},
+    { "link":"contact","title":"Contact"}  
   ],
   
   "Header": {
