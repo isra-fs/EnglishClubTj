@@ -1,6 +1,6 @@
 /* Services Section */
 #clases {
-    padding: 100px 0;
+    padding: 100px 0px 0px 0px;
     background: #612A60;
     color: #fff;
   }
@@ -41,8 +41,20 @@
   #clases .service-desc {
     margin-bottom: 40px;
   }
+  #clases > .spot-video{
+    width:100%;
+    background-color:#FFFFFF;
+    padding-top:50px;
+    margin-bottom:50px;
+  }
   @media (min-width: 1200px){
     #clases > .container {
       width: 85%;
+    }
+  }
+  @media (max-width: 768px){
+    #clases > .spot-video{
+      padding-top:0px;
+      margin-bottom:0px;
     }
   }

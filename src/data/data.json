@@ -67,30 +67,30 @@
     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
     "clases":[
        {
-         "icon": "englishClases.svg",
+         "icon": "personalized.svg",
          "name": "Personalized",
          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
        },
        {
-         "icon": "spanishClases.svg",
+         "icon": "intensive.svg",
          "name": "Intensive",
          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
        },
        {
-         "icon": "academic.svg",
+         "icon": "englishBusiness.svg",
          "name": "Business English",
          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
        },
        {
-         "icon": "children.svg",
+         "icon": "spanishBusiness.svg",
          "name": "Business Spanish",
          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
        },
-	   {
-		"icon": "children.svg",
-		"name": "Workshops for Businesses",
-		"text": "Personalized to the required type of business."
-	  }
+	      {
+      "icon": "workshops.svg",
+      "name": "Workshops for Businesses",
+      "text": "Personalized to the required type of business."
+        }
      ]
    },
   "Testimonials": {
