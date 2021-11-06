@@ -2,11 +2,11 @@
   "HeaderLinks":[
     { "link":"#about","title":"About"},
     { "link":"#services","title":"Services"},
-	{ "link":"#clases","title":"Clases"},
+	  { "link":"#clases","title":"Clases"},
     { "link":"#testimonials","title":"Testimonials"},
     { "link":"#team","title":"Team"},
-    { "link":"#contact","title":"Contact"},
-    { "link":"#values","title":"Values"}    
+    { "link":"#values","title":"Values"} ,
+    { "link":"#contact","title":"Contact"}  
   ],
   
   "Header": {
@@ -14,7 +14,7 @@
     "readyToLearn":"Ready To Learn",
     "lets":"Let's",
     "talk":"Talk",
-    "sign_up":"Sign Up",
+    "sign_up":   "Get In Touch",
     "title": "English club",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
@@ -154,12 +154,19 @@
   ]
 },
   "Contact": {
+    "labelSocialNetwork":"Social Network",
+    "labelEmail":"Email",
+    "labelPhone":"Phone",
+    "labelAddress":"Address",
+    "contactInfo":"Contact Info",
+    "sendMessage":"Send Message",
+    "title":"Get In Touch",
+    "description":"Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "link":"#contact",
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
+    "phone": "664 211 9314",
+    "email": "ectj.corp@gmail.com",
     "facebook": "https://www.facebook.com/EnglishClubTijuana",
-    "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Values": {

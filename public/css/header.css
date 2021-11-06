@@ -36,11 +36,7 @@
 .row.headerSection button{
     position: relative;
     top: 50%;
-    background-color: #F6871F;
-    border: 0px;
     width: 200px;
-    border-radius: 15px;
-    font-size: 20pt;
 }
 .chape-of-water{
     width: 20%;
@@ -67,35 +63,34 @@
         font-size: 31pt;
     }
     .row.headerSection button{
-        width: 130px;
-        border-radius: 15px;
-        font-size: 15pt;
+        width: auto;
+        padding: 7px 16px;        
     }
+  
 }
 @media (max-width: 768px){
     .col-md-4.header-title >h2{
         font-size: 20pt;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
     }
     .main-header{
         margin-top: 80px;;
     }
-    .row.headerSection button{
-        width: 100px;
-        border-radius: 15px;
-        font-size: 9pt;
+    .col-md-4.header-title{
+        width: 45%;
+        z-index: 99;
     }
-    
 }
 @media (max-width: 490px){
     .col-md-4.header-title >h2{
         font-size: 14pt;
     }
+    
     .row.headerSection button{
-        width: 70px;
-        border-radius: 15px;
-
+        /* width: auto;  */
+        font-size: 12px;
     }
+
 }
 
 

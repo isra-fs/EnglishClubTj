@@ -1,0 +1,125 @@
+/* Contact Section */
+#contact {
+    padding: 100px 0px 0px 0px;
+    background: #FFF;
+    color: #888;
+  }
+  #contact .section-title {
+    margin-bottom: 40px;
+  }
+  #contact .section-title p {
+    font-size: 16px;
+  }
+  #contact h2 {
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  #contact .section-title h2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 30px;
+  }
+  #contact h3 {
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+  #contact form {
+    padding-top: 20px;
+  }
+  #contact .text-danger {
+    color: #cc0033;
+    text-align: left;
+  }
+  #contact .btn-custom {
+    background-color:#612A60;
+  }
+  #contact .btn-custom:hover {
+    background: #F6871F;
+  }
+
+  label {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Aller Regular";
+    float: left;
+  }
+  #contact .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #444;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  #contact .form-control:focus {
+    border-color: #999;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #777;
+  }
+  .form-control:-moz-placeholder {
+    color: #777;
+  }
+  .form-control::-moz-placeholder {
+    color: #777;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #777;
+  }
+  #contact .contact-item {
+    margin: 20px 0;
+  }
+  #contact .contact-item span {
+    color:#612A60;
+    margin-bottom: 10px;
+    display: block;
+  }
+  #contact .contact-item i.fa {
+    margin-right: 10px;
+  }
+  #contact .social {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  #contact .social ul li {
+    display: inline-block;
+    text-align: center;;
+  }
+  #contact .social i.fa {
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #612A60;
+    color: #612A60;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  #contact .social i.fa:hover {
+    color: #F6871F;
+    border: 2px solid #F6871F;
+  }
+  @media (min-width: 1200px){
+    #contact > .container {
+      width: 85%;
+    }
+  }

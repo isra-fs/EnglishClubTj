@@ -39,10 +39,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>{props.data.title}</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  {props.data.description}
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -90,17 +89,17 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  {props.data.sendMessage}
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>{props.data.contactInfo}</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> {props.data.labelAddress}
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -108,7 +107,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> {props.data.labelPhone}
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -116,14 +115,17 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> {props.data.labelEmail}
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
-          </div>
-          <div className='col-md-12'>
-            <div className='row'>
+			<div className='contact-item'>
+			<p>
+                <span>
+                  <i className='fa fa-share-alt'></i> {props.data.labelSocialNetwork}
+                </span>
+              </p>
               <div className='social'>
                 <ul>
                   <li>
@@ -131,22 +133,22 @@ export const Contact = (props) => {
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  {/* <li>
-                    <a href={props.data ? props.data.twitter : '/'}  target="_blank">
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li> */}
                   <li>
                     <a href={props.data ? props.data.youtube : '/'} target="_blank">
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
                 </ul>
-              </div>
+          </div>
             </div>
           </div>
         </div>
+		
       </div>
+	   <iframe width="100%" height="500" 
+				id="gmap_canvas" src="https://maps.google.com/maps?q=Blvd%20Insurgentes%20Tijuana%20Plaza%20Gran%20florido%20English&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+				frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+		</iframe>
       <div id='footer'>
         <div className='container text-center'>
           <p>

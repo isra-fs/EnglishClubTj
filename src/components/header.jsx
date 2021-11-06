@@ -12,7 +12,10 @@ export const Header = (props) => {
 						<span >{JsonData.Header.talk}</span> 
 						<span className="span-alert" style={{fontWeight:800,color:'#F6871F'}}>!</span>
 					</h2>
-					<button type="button" className="btn btn-warning">{JsonData.Header.sign_up}</button>
+					<button type="button" className="btn btn-custom btn-lg" onClick={(e)=>{
+						e.preventDefault();
+						window.location.href="#contact"
+					}}>{JsonData.Header.sign_up}</button>
 				</div>
 				<img src="../img/intro-bg.png" style={{width:'70%',float:'right'}} />
 				<div className="chape-of-water">
