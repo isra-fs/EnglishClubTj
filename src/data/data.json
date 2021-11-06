@@ -194,5 +194,8 @@
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       }
     ]
+  },
+  "Footer":{
+	"copyright": "© 2021 Copyright: English Club"
   }
-  }
+}

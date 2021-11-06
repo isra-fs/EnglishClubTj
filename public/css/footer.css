@@ -1,0 +1,29 @@
+/* Footer Section*/
+#footer {
+    background: #612A60;
+    padding: 30px 0;
+}
+#footer .mb-4{
+    margin-bottom: 20px;
+}
+#footer .mb-4 ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+#footer .mb-4 i.fa {
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #FFF;
+    color: #FFF;
+    border-radius: 50%;
+}
+#footer .mb-4 i.fa:hover {
+    color: #F6871F;
+    border: 2px solid #F6871F;
+}
+#footer .text-center .p-3{
+    color:#FFFFFF;
+}

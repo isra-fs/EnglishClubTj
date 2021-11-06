@@ -149,16 +149,6 @@ export const Contact = (props) => {
 				id="gmap_canvas" src="https://maps.google.com/maps?q=Blvd%20Insurgentes%20Tijuana%20Plaza%20Gran%20florido%20English&t=&z=13&ie=UTF8&iwloc=&output=embed" 
 				frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 		</iframe>
-      <div id='footer'>
-        <div className='container text-center'>
-          <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
-          </p>
-        </div>
-      </div>
     </div>
   )
 }

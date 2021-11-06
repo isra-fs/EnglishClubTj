@@ -7,7 +7,8 @@ import { Services } from "./components/services";
 import { Clases } from "./components/clases";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
- import { Contact } from "./components/contact";
+import { Contact } from "./components/contact";
+import {Footer} from "./components/footer";
 import JsonData from "./data/data.json";
 
 import "./App.css";
@@ -31,6 +32,7 @@ const App = () => {
 				<Testimonials data={landingPageData.Testimonials} />
 				<Team data={landingPageData.Team} />
 				<Contact data={landingPageData.Contact} />
+				<Footer data={landingPageData.Footer}/>
 			</div>
 		:null
 		}
