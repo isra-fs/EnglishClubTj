@@ -3,8 +3,9 @@
     { "link":"services","title":"Services"},
     { "link":"about","title":"About"},
 	  { "link":"clases","title":"Clases"},
-    { "link":"contact","title":"Contact"} ,
-    { "link":"team","title":"Team"} 
+    { "link":"team","title":"Team"} ,
+    { "link":"contact","title":"Contact"} 
+    
   ],
   
   "Header": {
