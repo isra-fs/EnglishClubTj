@@ -1,0 +1,253 @@
+body,
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+p,
+h2,
+h3,
+h4 {
+  font-family: "Aller Regular";
+}
+h2 {
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+p {
+  
+  font-size: 15px;
+}
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+a {
+  color: #888;
+  font-weight: 400;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #FFF;
+}
+ul,
+ol {
+  list-style: none;
+}
+ul,
+ol {
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Aller Regular";
+  src: url("../fonts/fonts/Aller_Rg.ttf");
+}
+ /* Values Section */
+ #values {
+  background: #f6f6f6;
+}
+#values i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Portfolio Section */
+#portfolio {
+  padding: 100px 0;
+}
+.portfolio-item {
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+}
+.portfolio-item .hover-bg {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+.hover-bg .hover-text {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
+  padding: 30% 0 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.hover-bg .hover-text > h4 {
+  opacity: 0;
+  color: #fff;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  transition: all 0.3s;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.hover-bg:hover .hover-text > h4 {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.hover-bg:hover .hover-text {
+  opacity: 1;
+}
+/* Testimonials Section */
+#testimonials {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#testimonials i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.testimonial {
+  position: relative;
+  padding: 20px;
+}
+.testimonial-image {
+  float: left;
+  margin-right: 15px;
+}
+.testimonial-image,
+.testimonial-image img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.testimonial-content {
+  position: relative;
+  overflow: hidden;
+}
+.testimonial-content p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.testimonial-meta {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+/* Team Section */
+#team {
+  padding: 100px 0;
+}
+#team h4 {
+  margin: 5px 0;
+}
+#team .team-img {
+  width: 240px;
+}
+#team .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#team .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+
+
+
+@media (max-width: 768px) {
+  #about img {
+    margin: 50px 0;
+  }
+}
+
+
+
+/* Bootstrap Changes */
+.navbar-default .navbar-toggle {
+  border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  /* border-color: #F6871F; */
+}
+.navbar-default .navbar-toggle:hover > .icon-bar {
+  background-color: #F6871F;
+}
+.navbar-collapse{
+  margin-top: 20px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: #FFFFFF;
+}
+
+@media (min-width: 992px){
+  .container.header {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 992px){
+  .container.header {
+    width: 100% !important;
+  }
+
+  #menu.navbar-default .navbar-nav > li > a{
+    font-size: 12px;
+  }
+  .navbar-brand >.main-logo{
+    max-width: 150px;
+    margin-top: -4px;
+  }
+}
+@media (max-width: 768px){
+  #menu{
+    padding: 15px;
+  }
+  .navbar-brand >.main-logo{
+    max-width:200px;
+    margin-top: -12px;
+  }
+}
