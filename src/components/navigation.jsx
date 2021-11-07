@@ -34,7 +34,7 @@ export const Navigation = (props) => {
 							<span className='icon-bar'></span>{' '}
 					</button>
 					<a className='navbar-brand' onClick={_scrollToTop}>
-						<img style={{maxWidth:200}} src="../img/logoweb-01.png" alt="" className={'main-logo'} />
+						<img style={{maxWidth:200}} src="img/logoweb-01.png" alt="" className={'main-logo'} />
 				
 					</a>{' '}
 				</div>

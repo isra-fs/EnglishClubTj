@@ -14,7 +14,7 @@ export const Clases = (props) => {
               ? props.data.clases.map((d, i) => (
                   <div key={`${d.name}-${i}`} className='col-sm-3'>
                     {' '}
-                    <i ><img src= {"../img/clases/" + d.icon}style={{width:'100px'}} /></i>
+                    <i ><img src= {"img/clases/" + d.icon}style={{width:'100px'}} /></i>
                     <div className='service-desc'>
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>
@@ -25,7 +25,7 @@ export const Clases = (props) => {
           </div>
         </div>
 		<div className="spot-video">
-			<video src={"../img/clases/spotEC.mp4"} width="100%" controls></video>
+			<video src={"img/clases/spotEC.mp4"} width="100%" controls></video>
 		</div>
       </div>
     )
