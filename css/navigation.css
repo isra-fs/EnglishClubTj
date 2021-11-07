@@ -124,7 +124,7 @@
   }
   
   .logo-web{
-    src: '../img/logoweb-01.png'
+    src: 'img/logoweb-01.png'
   }
 
   @media (min-width: 1200px){
