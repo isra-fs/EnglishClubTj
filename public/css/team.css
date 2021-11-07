@@ -1,0 +1,35 @@
+/* Team Section */
+#team {
+    padding: 100px 0;
+    background-color: #FFF;
+}
+#team h4 {
+    margin: 5px 0;
+}
+#team h2,h3,h4{
+    color: #000;
+}
+#team h4{
+    color: #000;
+}
+#team .team-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+}
+#team .thumbnail {
+    background: transparent;
+    border: 0;
+}
+#team .thumbnail .caption {
+    padding: 10px 0 0;
+    color: #888;
+}
+.modal-header.teamDialog{
+    text-align: left;
+}
+@media (min-width: 1200px){
+    #team > .container {
+      width: 85%;
+    }
+  }

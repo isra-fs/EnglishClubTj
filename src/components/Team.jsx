@@ -1,12 +1,12 @@
+import TeamInfo  from "./teamInfo";
 export const Team = (props) => {
   return (
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>Meet the Team</h2>
+          <h2>{props.data.title}</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+           {props.data.description}
           </p>
         </div>
         <div id='row'>
@@ -15,10 +15,12 @@ export const Team = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
                   <div className='thumbnail'>
                     {' '}
+					<a href={`#${d.name}-${i}`} data-toggle="modal" data-target={`#${d.name}-${i}`}  >
                     <img src={d.img} alt='...' className='team-img' />
+					</a>
+					<TeamInfo info={d} id={`${d.name}-${i}`} team={props.data}/>
                     <div className='caption'>
                       <h4>{d.name}</h4>
-                      <p>{d.job}</p>
                     </div>
                   </div>
                 </div>

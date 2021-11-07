@@ -3,7 +3,8 @@
     { "link":"services","title":"Services"},
     { "link":"about","title":"About"},
 	  { "link":"clases","title":"Clases"},
-    { "link":"contact","title":"Contact"}  
+    { "link":"contact","title":"Contact"} ,
+    { "link":"team","title":"Team"} 
   ],
   
   "Header": {
@@ -137,27 +138,33 @@
   ]},
   "Team":{
     "link":"#team",
-
+    "title":"Meet the Team",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+    "moreAbout":"More About",
     "team":[
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Venny",
+      "job": "Director",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus."
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Maribel",
+      "job": "Senior Designer",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus."
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Enrique",
+      "job": "Senior Designer",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus."
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "David",
+      "job": "Project Manager",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus."
     }
   ]
 },
