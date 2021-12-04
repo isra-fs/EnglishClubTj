@@ -1,29 +1,26 @@
 export const About = (props) => {
   return (
-    <div id="about">
+    <div id="about" style={{backgroundImage: 'url(img/about/photo-motivation.png)'}}>
       <div className="container">
-	  <h2>{props.data.title}</h2>
+	  <h2>{props.data.labelMision}</h2>
 	  <p>{props.data ? props.data.aboutUs : "loading..."}</p>
+	  <h2>{props.data.labelTeachingMethod}</h2>
+	  <p>{props.data ? props.data.teachingMethod[0] : "loading..."}</p>
         <div className="row" >
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about/about.jpg" className="img-responsive" alt="" />{" "}
+          <div className="col-xs-12 col-md-6 about-icons">
+			  	<img src="img/about/listening.svg"/>
+				<img src="img/about/speaking.svg"/>
+				<img src="img/about/reading.svg"/>
+				<img src="img/about/writing.svg"/>					
           </div>
           <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-			  <h3 >{props.data.labelMision} </h3>
-			  <p>{props.data ? props.data.mission : "loading..."}</p>
-			  <h3>{props.data.labelTeachingMethod}</h3>
-				<div className="list-style">
-					<ul>
-						{props.data
-						? props.data.teachingMethod.map((d, i) => (
-							<li key={`${d}-${i}`}>{d}</li>
-							))
-						: "loading"}
-					</ul>
-				</div>
-            </div>
+			<ul>
+				{props.data
+				? props.data.teachingMethod.slice(1).map((d, i) => (
+					<><li key={`${d}-${i}`}>{d} </li><br></br></>
+					))
+				: "loading"}
+			</ul>
           </div>
         </div>
 		<div className="row" style={{marginTop:"30px"}}>
@@ -34,7 +31,7 @@ export const About = (props) => {
 					<ul>
 						{props.data
 						? props.data.motivation.map((d, i) => (
-							<li key={`${d}-${i}`}>{d}</li>
+							<><li key={`${d}-${i}`}>{d}</li><br></br></>
 							))
 						: "loading"}
 					</ul>
@@ -42,20 +39,8 @@ export const About = (props) => {
 				</div>
 			</div>
 			<div className="col-xs-12 col-md-6">
-				<div className="about-text">
-				<h3 style={{marginTop:"20px"}}>{props.data.labelOurCompanyIdeology}</h3>
-				<div className="list-style">
-					<ul>
-						{props.data
-						? props.data.ourCompanyIdeology.map((d, i) => (
-							<li key={`${d}-${i}`}>{d}</li>
-							))
-						: "loading"}
-					</ul>
-				</div>
-				</div>
 			</div>
-		</div>
+		</div>		
       </div>
     </div>
   );

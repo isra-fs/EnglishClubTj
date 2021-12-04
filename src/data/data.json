@@ -20,7 +20,7 @@
   },
   "About": {
     "title":"About Us",
-    "labelMision":"Mission",
+    "labelMision":"Our mission",
     "labelMotivation":"Motivation",
     "labelTeachingMethod":"Teaching Method",
     "labelOurCompanyIdeology":"Our Company Ideology",
@@ -41,7 +41,7 @@
     "teachingMethod":[
       "We develop the four essential abilities for communication, we begin with the listening ability to subsequently speak, read and write",
       "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
-      "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
+      "Finally, we develop reading and writing abilities the remaining 20% of the time in which the teacher explains the grammar content of the class theme.",
       "We use World Link supportive teaching materials."
     ]
   },
@@ -53,22 +53,22 @@
       {
         "icon": "englishClases.svg",
         "name": "English Language Courses",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "text": "Designed to aid non-native English speakers to Excel in their social, academic and proffesional environments."
       },
       {
         "icon": "spanishClases.svg",
         "name": "Spanish Language Courses",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "text": "Through our Spanish classes we assist in integrating people into our culture promply, that for one reason or another are currently residing in our country. Helping people communicate effectively in their studies, entrepreneurship and business life."
       },
       {
         "icon": "academic.svg",
         "name": "Academic leveling",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "text": "Specifically designed for Academic purposes. Middle School, High School and University students can receive personal help to reach a specific goal for THAT exam or language development needed."
       },
       {
         "icon": "children.svg",
         "name": "English for young children (ages 4 and up)",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "text": "The method we use is interactive and Dynamic, which helps young students acquire the language through real conversations, in between teaching and games, they will be adquiring the English knowledge in a intuite and fun manner through the online experience."
       }
     ]
   },
@@ -80,7 +80,7 @@
        {
          "icon": "personalized.svg",
          "name": "Personalized",
-         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+         "text": "These classes are adapted to the student’s needs, your English level is irrelevant. The Teacher begins with the level of English that is understood by the student, guarateeing efficient and Swift learning to accomplish your short term goals."
        },
        {
          "icon": "intensive.svg",
@@ -90,7 +90,7 @@
        {
          "icon": "englishBusiness.svg",
          "name": "Business English",
-         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+         "text": "This course is designed for those who wish to broaden their technical vocabulary to improve their profesional development."
        },
        {
          "icon": "spanishBusiness.svg",
