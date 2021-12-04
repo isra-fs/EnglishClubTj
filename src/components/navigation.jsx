@@ -2,7 +2,7 @@
 import React,{useState} from "react";
 import { MenuOptions } from "./menuOptions";
 import {  animateScroll as scroll } from "react-scroll";
-import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 export const Navigation = (props) => {
 
 	const _scrollToTop = () => {
@@ -12,9 +12,7 @@ export const Navigation = (props) => {
 	const [expanded, setExpanded] = useState(false);
 	return (
 		<Navbar   
-		collapseOnSelect onClick={() => {
-			setExpanded(expanded ? false : "expanded")
-		}}  
+		collapseOnSelect  
 		expanded={expanded}
 		id='menu' 
 		className='navbar navbar-default navbar-fixed-top'
@@ -22,7 +20,9 @@ export const Navigation = (props) => {
 		>
 			<div className='container header'>
 				<div className='navbar-header'>
-					<button
+					<button onClick={() => {
+							setExpanded(expanded ? false : "expanded")
+						}} 
 						type='button'
 						className='navbar-toggle collapsed'
 						data-toggle='collapse'
@@ -38,7 +38,7 @@ export const Navigation = (props) => {
 				
 					</a>{' '}
 				</div>
-				<Navbar.Collapse className='collapse navbar-collapse'>
+				<Navbar.Collapse className='collapse navbar-collapse' >
 					<MenuOptions setExpanded={()=>{setExpanded(false) }}/>
           		</Navbar.Collapse>
 				

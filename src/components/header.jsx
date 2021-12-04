@@ -12,7 +12,13 @@ export const Header = (props) => {
 						<span >{JsonData.Header.talk}</span> 
 						<span className="span-alert" style={{fontWeight:800,color:'#F6871F'}}>!</span>
 					</h2>
-					<button type="button" className="btn btn-custom btn-lg" onClick={(e)=>{
+					<button type="button" className="btn btn-custom btn-lg interview" style={{
+						
+					}} onClick={(e)=>{
+						e.preventDefault();
+						window.location.href="#contact"
+					}}>{JsonData.Header.interview}</button>
+					<button  type="button" className="btn btn-custom btn-lg" onClick={(e)=>{
 						e.preventDefault();
 						window.location.href="#contact"
 					}}>{JsonData.Header.sign_up}</button>
