@@ -38,7 +38,7 @@ const Interview = props => {
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header teamDialog">
-                        <h4 className="modal-title" id="myModalLabel" >{props.interview.title}</h4>
+                        <h3 className="modal-title" id="myModalLabel" >{props.interview.title}</h3>
                         <p>{props.interview.description}</p>
                     </div>
                     <div className="modal-body" style={{ backgroundColor: "#612A60" }}>

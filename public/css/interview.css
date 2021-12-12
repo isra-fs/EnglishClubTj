@@ -15,6 +15,18 @@
     -o-transition: none;
     transition: none;
   }
+  #interviewPopup .modal-content{
+    border:0px;
+  }
+  #interviewPopup .modal-header{
+    background:#612A60 ;
+    border-bottom: 0px;
+    color:#FFFFFF;
+  }
+  #interviewPopup .modal-header h3{
+    color:#FFFFFF;
+    margin-bottom: 5px;
+  }
   select{
       font-size: 10px !important;
   }

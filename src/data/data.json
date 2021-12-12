@@ -3,6 +3,7 @@
     { "link":"services","title":"Services"},
     { "link":"about","title":"About"},
 	  { "link":"clases","title":"Clases"},
+    { "link":"testimonials","title":"Testimonials"},
     { "link":"team","title":"Team"} ,
     { "link":"contact","title":"Contact"} 
     
@@ -231,6 +232,8 @@
     ]
   },
   "Footer":{
-	"copyright": "© 2021 Copyright: English Club"
+	"copyright": "© 2021 Copyright: English Club",
+  "facebook": "https://www.facebook.com/EnglishClubTijuana",
+  "youtube": "https://www.youtube.com"
   }
 }

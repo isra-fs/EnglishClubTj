@@ -8,10 +8,10 @@ export const About = (props) => {
 	  <p>{props.data ? props.data.teachingMethod[0] : "loading..."}</p>
         <div className="row" >
           <div className="col-xs-12 col-md-6 about-icons">
-			  	<img src="img/about/listening.svg"/>
-				<img src="img/about/speaking.svg"/>
-				<img src="img/about/reading.svg"/>
-				<img src="img/about/writing.svg"/>					
+			  	<img src="img/about/listening.svg" alt=""/>
+				<img src="img/about/speaking.svg" alt=""/>
+				<img src="img/about/reading.svg" alt=""/>
+				<img src="img/about/writing.svg"alt=""/>					
           </div>
           <div className="col-xs-12 col-md-6">
 			<ul>

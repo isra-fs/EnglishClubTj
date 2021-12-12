@@ -21,7 +21,7 @@ export const Header = (props) => {
 						window.location.href="#contact"
 					}}>{JsonData.Header.sign_up}</button>
 				</div>
-				<img src="img/intro-bg.png" style={{width:'70%',float:'right'}} />
+				<img src="img/intro-bg.png" style={{width:'70%',float:'right'}} alt=""/>
 				<div className="chape-of-water">
 			</div>
 			</div>

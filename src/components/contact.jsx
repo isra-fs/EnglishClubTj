@@ -129,12 +129,12 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'} target="_blank">
+                    <a href={props.data ? props.data.facebook : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'} target="_blank">
+                    <a href={props.data ? props.data.youtube : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
@@ -145,7 +145,7 @@ export const Contact = (props) => {
         </div>
 		
       </div>
-	   <iframe width="100%" height="500" 
+	   <iframe width="100%" height="500" title="clubMap"
 				id="gmap_canvas" src="https://maps.google.com/maps?q=Blvd%20Insurgentes%20Tijuana%20Plaza%20Gran%20florido%20English&t=&z=13&ie=UTF8&iwloc=&output=embed" 
 				frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
 		</iframe>

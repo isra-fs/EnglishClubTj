@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Values } from "./components/values";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Clases } from "./components/clases";
@@ -28,8 +27,7 @@ const App = () => {
 				<Services data={landingPageData.Services} />
 				<About data={landingPageData.About} />
 				<Clases data={landingPageData.Clases} />
-				{/* <Values data={landingPageData.Values} /> */}
-				{/* <Testimonials data={landingPageData.Testimonials} /> */}
+				<Testimonials data={landingPageData.Testimonials} />
 				<Team data={landingPageData.Team} />
 				<Contact data={landingPageData.Contact} />
 				<Footer data={landingPageData.Footer}/>
@@ -39,9 +37,4 @@ const App = () => {
 	   </div>
   	);
 };
-/**
- * { "link":"#testimonials","title":"Testimonials"},
-{ "link":"#team","title":"Team"},
-{ "link":"#values","title":"Values"} ,
- */
 export default App;

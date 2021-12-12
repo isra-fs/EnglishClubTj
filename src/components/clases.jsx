@@ -15,7 +15,7 @@ export const Clases = (props) => {
               ? props.data.clases.slice(0,3).map((d, i) => (
                   <div key={`${d.name}-${i}`} className='col-6 col-md-4'>
                     {' '}
-                    <i ><img src= {"img/clases/" + d.icon}style={{width:'100px'}} /></i>
+                    <i ><img src= {"img/clases/" + d.icon}style={{width:'100px'}} alt=""/></i>
                     <div className='service-desc'>
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>
@@ -29,7 +29,7 @@ export const Clases = (props) => {
               ? props.data.clases.slice(3).map((d, i) => (
                   <div key={`${d.name}-${i}`} className='col-6 col-md-4'>
                     {' '}
-                    <i ><img src= {"img/clases/" + d.icon}style={{width:'100px'}} /></i>
+                    <i ><img src= {"img/clases/" + d.icon}style={{width:'100px'}} alt=""/></i>
                     <div className='service-desc'>
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>
