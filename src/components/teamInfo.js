@@ -2,7 +2,7 @@ const TeamInfo = props=>{
     return(
         <>{
             props.info.img ?
-            <div className="modal  fade" id={props.id} tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div className="modal  fade" id={props.id} tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header teamDialog">

@@ -17,7 +17,7 @@ export const About = (props) => {
 			<ul>
 				{props.data
 				? props.data.teachingMethod.slice(1).map((d, i) => (
-					<><li key={`${d}-${i}`}>{d} </li><br></br></>
+					<div key={`${i}`}><li>{d}</li><br></br></div>
 					))
 				: "loading"}
 			</ul>
@@ -31,7 +31,7 @@ export const About = (props) => {
 					<ul>
 						{props.data
 						? props.data.motivation.map((d, i) => (
-							<><li key={`${d}-${i}`}>{d}</li><br></br></>
+							<div key={`${i}`}><li>{d}</li><br></br></div>
 							))
 						: "loading"}
 					</ul>

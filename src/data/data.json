@@ -140,8 +140,8 @@
   ]},
   "Team":{
     "link":"#team",
-    "title":"Meet the Team",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+    "title":"About Us",
+    "description":"We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
     "moreAbout":"More About",
     "team":[
     {
@@ -177,7 +177,7 @@
     "labelAddress":"Address",
     "contactInfo":"Contact Info",
     "sendMessage":"Send Message",
-    "title":"Get In Touch",
+    "title":"Contact us",
     "description":"Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "link":"#contact",
     "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
@@ -185,6 +185,24 @@
     "email": "ectj.corp@gmail.com",
     "facebook": "https://www.facebook.com/EnglishClubTijuana",
     "youtube": "youtube.com"
+  },
+  "Interview": {
+    "name":"Write Your First Name",
+    "lastName":"Write Your last Name",
+    "labelEmail":"Write Your email",
+    "labelPhone":"Write Your Telephone Number",
+    "language":"What Language Do you Speak?",
+    "whereYouFindUs":"How did you hear about us?",
+    "en":"English",
+    "es":"Spanish",
+    "internet":"internet",
+    "socialNetowork":"Social Network",
+    "friend":"Friend",
+    "description":"Please fill out the form and we will contact you soon.",
+    "sendMessage":"Send Message",
+    "title":"Interview",
+    "link":"#interview"
+
   },
   "Values": {
     "link":"#values",

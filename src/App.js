@@ -24,7 +24,7 @@ const App = () => {
 		{Object.entries(landingPageData).length >0 ?
 			<div>
 				<Navigation data={landingPageData}/>
-				<Header data={landingPageData.Header} />
+				<Header data={landingPageData.Header} interview={landingPageData.Interview} />
 				<Services data={landingPageData.Services} />
 				<About data={landingPageData.About} />
 				<Clases data={landingPageData.Clases} />

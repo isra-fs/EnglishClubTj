@@ -1,4 +1,5 @@
 import JsonData from "../data/data.json";
+import Interview from "./interview";
 export const Header = (props) => {
   	return (
 		<div className="main-header" id="mainHeader">
@@ -12,12 +13,9 @@ export const Header = (props) => {
 						<span >{JsonData.Header.talk}</span> 
 						<span className="span-alert" style={{fontWeight:800,color:'#F6871F'}}>!</span>
 					</h2>
-					<button type="button" className="btn btn-custom btn-lg interview" style={{
-						
-					}} onClick={(e)=>{
-						e.preventDefault();
-						window.location.href="#contact"
-					}}>{JsonData.Header.interview}</button>
+					<a type="button" className="btn btn-custom btn-lg interview"
+						href={`#interviewPopup`} data-toggle="modal" data-target={`#interviewPopup`} 
+					>{JsonData.Header.interview}</a>
 					<button  type="button" className="btn btn-custom btn-lg" onClick={(e)=>{
 						e.preventDefault();
 						window.location.href="#contact"
@@ -27,6 +25,7 @@ export const Header = (props) => {
 				<div className="chape-of-water">
 			</div>
 			</div>
+			<Interview interview={props.interview}></Interview>
 		</div>
 		)
 }

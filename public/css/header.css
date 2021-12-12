@@ -33,14 +33,16 @@
     font-weight:800;
     text-decoration:none;
 }
-.row.headerSection button{
+.row.headerSection button,
+.row.headerSection a
+{
     position: relative;
     top: 50%;
     width: 150px;
     z-index: 9; 
     
 }
-.row.headerSection button.interview{
+.row.headerSection a.interview{
     margin-right: 20px;
 }
 .chape-of-water{
@@ -70,7 +72,8 @@
     .col-md-4.header-title >h2{
         font-size: 31pt;
     }
-    .row.headerSection button{
+    .row.headerSection button,
+    .row.headerSection a{
         width: auto;
         padding: 7px 16px;   
         z-index: 9;     
@@ -106,10 +109,11 @@
         height: 300px;
     }
     
-    .row.headerSection button{
+    .row.headerSection button,
+    .row.headerSection a{
         font-size: 16px;
     }
-    .row.headerSection button.interview{
+    .row.headerSection a.interview{
         margin-right: 5px;
 
     }

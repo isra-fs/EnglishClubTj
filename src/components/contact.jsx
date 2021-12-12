@@ -44,7 +44,7 @@ export const Contact = (props) => {
                   {props.data.description}
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' validate="true" onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -147,7 +147,7 @@ export const Contact = (props) => {
       </div>
 	   <iframe width="100%" height="500" 
 				id="gmap_canvas" src="https://maps.google.com/maps?q=Blvd%20Insurgentes%20Tijuana%20Plaza%20Gran%20florido%20English&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-				frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
 		</iframe>
     </div>
   )
