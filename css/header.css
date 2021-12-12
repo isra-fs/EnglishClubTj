@@ -33,10 +33,17 @@
     font-weight:800;
     text-decoration:none;
 }
-.row.headerSection button{
+.row.headerSection button,
+.row.headerSection a
+{
     position: relative;
     top: 50%;
-    width: 200px;
+    width: 150px;
+    z-index: 9; 
+    
+}
+.row.headerSection a.interview{
+    margin-right: 20px;
 }
 .chape-of-water{
     width: 20%;
@@ -65,9 +72,11 @@
     .col-md-4.header-title >h2{
         font-size: 31pt;
     }
-    .row.headerSection button{
+    .row.headerSection button,
+    .row.headerSection a{
         width: auto;
-        padding: 7px 16px;        
+        padding: 7px 16px;   
+        z-index: 9;     
     }
   
 }
@@ -80,19 +89,32 @@
         margin-top: 80px;;
     }
     .col-md-4.header-title{
-        width: 45%;
+        width: 55%;
         z-index: 99;
-    }
-   
+    }   
 }
 @media (max-width: 490px){
     .col-md-4.header-title >h2{
-        font-size: 14pt;
+        font-size: 22pt;
+    }
+    .col-md-4.header-title{
+        width: 70%;
+        z-index: 99;
+        text-align: center;
+    }
+    .col-md-4 >.header-learn{
+        top:40%;
+    }
+    .row.headerSection{
+        height: 300px;
     }
     
-    .row.headerSection button{
-        /* width: auto;  */
-        font-size: 12px;
+    .row.headerSection button,
+    .row.headerSection a{
+        font-size: 16px;
     }
+    .row.headerSection a.interview{
+        margin-right: 5px;
 
+    }
 }
