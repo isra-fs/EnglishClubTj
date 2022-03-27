@@ -1,6 +1,6 @@
 export const About = (props) => {
   return (
-    <div id="about" style={{backgroundImage: 'url(img/about/photo-motivation.png)'}}>
+    <div id="about" style={{backgroundImage: 'url(img/about/photo-motivation.jpg)'}}>
       <div className="container">
 	  <h2>{props.data.labelMision}</h2>
 	  <p>{props.data ? props.data.aboutUs : "loading..."}</p>
