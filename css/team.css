@@ -14,7 +14,7 @@
 }
 #team .team-img {
     width: 240px;
-    height: 240px;
+    height: 300px;
     border-radius: 100%;
 }
 #team .thumbnail {
@@ -25,11 +25,29 @@
     padding: 10px 0 0;
     color: #888;
 }
+#team .images-team{
+    width:100%;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
 .modal-header.teamDialog{
     text-align: left;
 }
+
 @media (min-width: 1200px){
     #team > .container {
       width: 85%;
     }
-  }
+}
+@media (max-width: 769px){
+    #team  .images-team {
+        width: 90%;
+    }
+}
+@media (max-width: 500px){
+    #team  .images-team {
+        width: 100%;
+    }
+}

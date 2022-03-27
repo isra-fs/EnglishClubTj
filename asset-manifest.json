@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "https://isra-fs.github.io/EnglishClubTj/static/css/main.99ad9306.chunk.css",
-    "main.js": "https://isra-fs.github.io/EnglishClubTj/static/js/main.51c5bedd.chunk.js",
-    "main.js.map": "https://isra-fs.github.io/EnglishClubTj/static/js/main.51c5bedd.chunk.js.map",
+    "main.js": "https://isra-fs.github.io/EnglishClubTj/static/js/main.b69653d7.chunk.js",
+    "main.js.map": "https://isra-fs.github.io/EnglishClubTj/static/js/main.b69653d7.chunk.js.map",
     "runtime-main.js": "https://isra-fs.github.io/EnglishClubTj/static/js/runtime-main.e8c90ad4.js",
     "runtime-main.js.map": "https://isra-fs.github.io/EnglishClubTj/static/js/runtime-main.e8c90ad4.js.map",
-    "static/js/2.7a200241.chunk.js": "https://isra-fs.github.io/EnglishClubTj/static/js/2.7a200241.chunk.js",
-    "static/js/2.7a200241.chunk.js.map": "https://isra-fs.github.io/EnglishClubTj/static/js/2.7a200241.chunk.js.map",
+    "static/js/2.3ffcc6e3.chunk.js": "https://isra-fs.github.io/EnglishClubTj/static/js/2.3ffcc6e3.chunk.js",
+    "static/js/2.3ffcc6e3.chunk.js.map": "https://isra-fs.github.io/EnglishClubTj/static/js/2.3ffcc6e3.chunk.js.map",
     "index.html": "https://isra-fs.github.io/EnglishClubTj/index.html",
     "static/css/main.99ad9306.chunk.css.map": "https://isra-fs.github.io/EnglishClubTj/static/css/main.99ad9306.chunk.css.map",
-    "static/js/2.7a200241.chunk.js.LICENSE.txt": "https://isra-fs.github.io/EnglishClubTj/static/js/2.7a200241.chunk.js.LICENSE.txt"
+    "static/js/2.3ffcc6e3.chunk.js.LICENSE.txt": "https://isra-fs.github.io/EnglishClubTj/static/js/2.3ffcc6e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8c90ad4.js",
-    "static/js/2.7a200241.chunk.js",
+    "static/js/2.3ffcc6e3.chunk.js",
     "static/css/main.99ad9306.chunk.css",
-    "static/js/main.51c5bedd.chunk.js"
+    "static/js/main.b69653d7.chunk.js"
   ]
 }
