@@ -13,9 +13,9 @@
     "link":"#home",
     "readyToLearn":"Listos para aprender.",
     "lets":"¡Hablemos!",
-    "talk":"Talk",
-    "sign_up":   "Contact us",
-    "interview":"Interview",
+    "talk":"",
+    "sign_up":   "Contactanos",
+    "interview":"Entrevista",
     "title": "English club",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
@@ -80,17 +80,17 @@
     "clases":[
        {
          "icon": "personalized.svg",
-         "name": "Personalized",
+         "name": "Personalizadas",
          "text": "Las clases personalizadas están adaptadas a las necesidades del alumno, no importa el nivel de inglés que tengas, con la enseñanza comopletamente. El maestro inicia con un  nivel de ingles que es entendible por el alumno, garantizando un aprendizaje eficiente y rápido para completar esas metas a corto plazo."
        },
        {
          "icon": "intensive.svg",
-         "name": "Intensive",
+         "name": "Intensivas",
          "text": "¿Has estudiado inglés antes? ¿Necesitas refrescar tu memoria? Nuestras clases intensivas son para personas que desean cubrir tanto material como sea posible para mejorar su inglés. Recomendamos este curso para personas que puedan estudiar al menos dos horas diarias ."
        },
        {
          "icon": "englishBusiness.svg",
-         "name": "Business English",
+         "name": "Inglés de negocios",
          "text": "Este curso esta diseñado para esas personas que desean expandir su vocabulario technico para mejorar en su hambiente profesional."
        },
 	      {
@@ -108,7 +108,7 @@
   "Team":{
     "link":"#team",
     "title":"Equipo",
-    "description":"We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "description":"Somos una empresa educativa de inglés joven creada en Tijuana México y en constante crecimiento, comprometida con la mejora constante de nuestros servicios. Estamos convencidos de que las oportunidades se crean a diario con  trabajo duro y  constancia. El hecho de exigirnos los más altos niveles de calidad es lo que nos distingue del resto.",
     "moreAbout":"More About",
     "team":[
     {
@@ -118,7 +118,7 @@
       "bio":"Solo soy un chamaco de Mexico, tratando de divertirme en cada oportunidad posible mientras innovando y empujando al mas aya. La competicion es mi mas grande motivación."
     },
     {
-      "img": "img/team/venny.jpg",
+      "img": "img/team/maribel.jpeg",
       "name": "Maribel",
       "job": "HR Manager/Maestra de inglés",
       "bio":"Soy una maestra que nacio y fue criada en Tijuana. Amo enseñar inglés por es emocionante, un reto y gratificante. Ademas, me deja establecer lazos con mis alumnos y ser testiga experiencas que cambian la vida de la gente. Por cierto, puedo resopnder preguntas muy raras y estar informada con eventos en Mexico y en el extranjero.."
@@ -138,14 +138,14 @@
   ]
 },
   "Contact": {
-    "labelSocialNetwork":"Social Network",
-    "labelEmail":"Email",
-    "labelPhone":"Phone",
-    "labelAddress":"Address",
-    "contactInfo":"Contact Info",
-    "sendMessage":"Send Message",
-    "title":"Contact us",
-    "description":"Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+    "labelSocialNetwork":"Redes social",
+    "labelEmail":"Correo electrónico",
+    "labelPhone":"Teléfono",
+    "labelAddress":"Dirección",
+    "contactInfo":"Información de contacto",
+    "sendMessage":"Enviar mensaje",
+    "title":"Contactanos",
+    "description":"Complete el siguiente formulario para enviarnos un correo electrónico y nos pondremos en contacto con usted lo antes posible.",
     "link":"#contact",
     "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
     "phone": "664 211 9314",
@@ -154,21 +154,21 @@
     "youtube": "youtube.com"
   },
   "Interview": {
-    "name":"Write your first name",
-    "lastName":"Write your last name",
-    "labelEmail":"Write your email",
-    "labelPhone":"Write your telephone number",
-    "language":"What language do you speak?",
-    "whereYouFindUs":"How did you hear about us?",
-    "en":"English",
-    "es":"Spanish",
+    "name":"Nombre",
+    "lastName":"Apellido",
+    "labelEmail":"Correo electrónico",
+    "labelPhone":"Número de teléfono",
+    "language":"¿Qué idioma hablas?",
+    "whereYouFindUs":"¿Cómo supiste de nosotros?",
+    "en":"Inglés",
+    "es":"Español",
     "internet":"internet",
-    "socialNetowork":"Social network",
-    "friend":"Friend",
+    "socialNetowork":"Redes sociales",
+    "friend":"Amigos",
     "liveStream":"Live stream",
-    "description":"Please fill out the form and we will contact you promptly.",
-    "sendMessage":"Send message",
-    "title":"Interview",
+    "description":"Por favor rellene el formulario y nos pondremos en contacto con usted a la brevedad.",
+    "sendMessage":"Enviar mensaje",
+    "title":"Entrevista",
     "link":"#interview"
 
   },

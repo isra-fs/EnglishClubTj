@@ -9,8 +9,14 @@ export const Header = (props) => {
 					</h2>
 					<h2 className="header-learn">
 						{props.data.lets + " " }
+						{props.data.talk ? 
+						<>
 						<span >{props.data.talk}</span> 
 						<span className="span-alert" style={{fontWeight:800,color:'#F6871F'}}>!</span>
+						</>
+					 :null	
+					}
+						
 					</h2>
 					<a type="button" className="btn btn-custom btn-lg interview"
 						href={`#interviewPopup`} data-toggle="modal" data-target={`#interviewPopup`} 
