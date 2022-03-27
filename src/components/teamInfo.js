@@ -10,8 +10,10 @@ const TeamInfo = props=>{
                     </div>
                     <div className="modal-body">
                         <center>
-                            {/* <img src={props.info.img} alt='...' className='images-team'></img> */}
-                            <div  style={{backgroundImage:'url("'+props.info.img+'")'}} className={"images-team"}></div>
+                            <div  style={{backgroundImage:'url("'+props.info.img+'")',
+                            width:'50%',
+                            height:200,
+                        }} className={"images-team"}></div>
                             <h3>{props.info.job}</h3>
                         </center>
                         <hr/>
