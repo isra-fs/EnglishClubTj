@@ -4,7 +4,6 @@ import { MenuOptions } from "./menuOptions";
 import {  animateScroll as scroll } from "react-scroll";
 import { Navbar } from 'react-bootstrap'
 export const Navigation = (props) => {
-
 	const _scrollToTop = () => {
 		scroll.scrollToTop();
 	};
@@ -39,7 +38,7 @@ export const Navigation = (props) => {
 					</a>{' '}
 				</div>
 				<Navbar.Collapse className='collapse navbar-collapse' >
-					<MenuOptions setExpanded={()=>{setExpanded(false) }}/>
+					<MenuOptions setExpanded={()=>{setExpanded(false) }} headerLinks={props.data.HeaderLinks}/>
           		</Navbar.Collapse>
 				
 			</div>

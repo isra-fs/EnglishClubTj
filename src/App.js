@@ -8,15 +8,35 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import {Footer} from "./components/footer";
-import JsonData from "./data/data.json";
-
+import en from "./data/en.json";
+import es from "./data/es.json"
 import "./App.css";
 
 const App = () => {
 	const [landingPageData, setLandingPageData] = useState({});
 	useEffect(() => {
-		setLandingPageData(JsonData); 
+	   let _gettingLanguage = getBrowserLanguage();
+       if(_gettingLanguage && _gettingLanguage === "es"){
+			setLandingPageData(es); 
+	   }else{
+			setLandingPageData(en); 
+	   }
 	}, []);
+
+	const getBrowserLanguage =()=>{
+		try {
+			let language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+			navigator.language ||   // All browsers
+			navigator.userLanguage; // IE <= 10
+			if(language){
+				language = language.split('-');
+				return language[0];
+			}	
+		} catch (error) {
+			console.log(error);
+		}
+		
+	}
 
   	return (
 		<div>

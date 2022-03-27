@@ -16,7 +16,7 @@ export const Team = (props) => {
                   <div className='thumbnail'>
                     {' '}
 					<a href={`#${d.name}-${i}`} data-toggle="modal" data-target={`#${d.name}-${i}`}  >
-                    <img src={d.img} alt='...' className='team-img' />
+                        <div  style={{backgroundImage:'url("'+d.img+'")'}} className={"images-team"}></div>
 					</a>
 					<TeamInfo info={d} id={`${d.name}-${i}`} team={props.data}/>
                     <div className='caption'>

@@ -1,0 +1,206 @@
+{
+  "HeaderLinks":[
+    { "link":"services","title":"Services"},
+    { "link":"about","title":"About"},
+	  { "link":"clases","title":"Clases"},
+    { "link":"testimonials","title":"Testimonials"},
+    { "link":"team","title":"Team"} ,
+    { "link":"contact","title":"Contact"} 
+    
+  ],
+  
+  "Header": {
+    "link":"#home",
+    "readyToLearn":"Ready to learn.",
+    "lets":"Let's",
+    "talk":"Talk",
+    "sign_up":   "Contact us",
+    "interview":"Interview",
+    "title": "English club",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "title":"About Us",
+    "labelMision":"Our mission",
+    "labelMotivation":"Motivation",
+    "labelTeachingMethod":"Teaching Method",
+    "labelOurCompanyIdeology":"Our Company Ideology",
+    "link":"#about",
+    "mission":"To teach with great dedication and responsibility to all the people that desire to obtain new communication abilities which will allow them to obtain better development opportunities in their personal and professional lives.",
+    "aboutUs": "We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "motivation": [
+      "Our students recommends us to family and friends.",
+      "Our commercial partners that trust us with tutoring their collaborators.",
+      "Our teachers, which feel proud to be part of our team and are treated fairly .",
+      "Serving our community, satisfying the need to communicate in a second language as part of their everyday lives in the biggest and busiest border in the world."
+    ],
+    "ourCompanyIdeology": [
+      "If you can dream it, you can do it!  Walt Disney.",
+      "The measure of who we are is what we do with what we have! Vince Lombardi.",
+      "The best wat to predict the future is to create it!  Abraham Lincoln."
+    ],
+    "teachingMethod":[
+      "We develop the four essential abilities for communication, we begin with the listening ability to subsequently speak, read and write",
+      "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
+      "Finally, we develop reading and writing abilities the remaining 20% of the time in which the teacher explains the grammar content of the class theme.",
+      "We use custom Link supportive teaching materials."
+    ]
+  },
+  "Services": {
+   "link":"#services",
+   "title":"Our Services",
+   "description":"Helping people learn English to communicate internationally ",
+   "services":[
+      {
+        "icon": "englishClases.svg",
+        "name": "English Language Courses",
+        "text": "Designed to aid non-native English speakers to excel in their social, academic and profesional environments."
+      },
+      {
+        "icon": "spanishClases.svg",
+        "name": "Spanish Language Courses",
+        "text": "Through out Spanish classes we provide non Hispanics the tools to integrate into ouir culture promptly. Helping people communicate effectively in their studies, entrepreneurship and business life."
+      },
+      {
+        "icon": "academic.svg",
+        "name": "Academic leveling",
+        "text": "Specifically designed for Academic purposes. Middle School, High School and University students can receive personal help to reach a specific goal for THAT exam or language development needed."
+      },
+      {
+        "icon": "children.svg",
+        "name": "English for young children (ages 4 and up)",
+        "text": "The method we use is interactive and dynamic, which helps young students acquire the language through real conversations, in between teaching and games, they will be acquiring the English knowledge in a intuitive and fun manner through the online experience."
+      }
+    ]
+  },
+  "Clases": {
+    "link":"#clases",
+    "title":"Classes",
+    "description":"We offer different type of courses depending on the customer's needs and interests.",
+    "clases":[
+       {
+         "icon": "personalized.svg",
+         "name": "Personalized",
+         "text": "These classes are adapted to the student’s needs, your English level is irrelevant. The Teacher begins with the level of English which is understood by the student, guarateeing efficient and swift learning to accomplish the student's short term goals."
+       },
+       {
+         "icon": "intensive.svg",
+         "name": "Intensive",
+         "text": "Have you studied English before? Do you need to refresh your memory? Our intensive classes are designed to help you cover as much material as possible while continuously improving your fluency and pronunciation with a perfect combination of grammar assistance with our custom made activities."
+       },
+       {
+         "icon": "englishBusiness.svg",
+         "name": "Business English",
+         "text": "This course is designed for those who wish to broaden their technical vocabulary to improve their profesional development."
+       },
+	      {
+      "icon": "workshops.svg",
+      "name": "Workshops for Businesses",
+      "text": "Does your company have many native Mexican professionals who need to perfect their English communication? Our (online) workshops are tailored for you!! Our native speaking teachers excel in making people feel comfortable enough to speak, yet maintain that professional environment while pushing you to excel(bundles and discounts depend on amount of students, we w."
+        }
+     ]
+   },
+  "Testimonials": {
+    "link":"#testimonials",
+    "description":"What our students say"
+   
+  },
+  "Team":{
+    "link":"#team",
+    "title":"Team",
+    "description":"We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "moreAbout":"More About",
+    "team":[
+    {
+      "img": "img/team/venny.jpg",
+      "name": "Venny",
+      "job": "Director/Project Manager/English Teacher",
+      "bio":"I'm just a kid from Mexico, trying to have fun at every opportunity possible while innovating and pushing the line further. Competitiveness is my biggest drive."
+    },
+    {
+      "img": "img/team/venny.jpg",
+      "name": "Maribel",
+      "job": "HR Manager/English Teacher",
+      "bio":"I'm an English Teacher born and raised in Tijuana. I love teaching English because it's thrilling, challenging and rewarding. It also allows me to build bonds with my students and to witness life-changing experiences as they advance in their learning. Plus, I get to answer weird questions, and see the bigger picture about current events at home and abroad. "
+    },
+    {
+      "img": "img/team/enrique.jpeg",
+      "name": "Enrique",
+      "job": "Director",
+      "bio":"Hi! I'm Enrique, my desire is to pass my knowledge of the English language to as many people as possible, therefore obtaining the same or better opportunities that I obtained from my english teachers."
+    },
+    {
+      "img": "img/team/david.jpg",
+      "name": "David",
+      "job": "Project Manager/English Teacher",
+      "bio":"I am a simple guy trying to help people learn and speak English as fluently as possible."
+    }
+  ]
+},
+  "Contact": {
+    "labelSocialNetwork":"Social Network",
+    "labelEmail":"Email",
+    "labelPhone":"Phone",
+    "labelAddress":"Address",
+    "contactInfo":"Contact Info",
+    "sendMessage":"Send Message",
+    "title":"Contact us",
+    "description":"Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+    "link":"#contact",
+    "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
+    "phone": "664 211 9314",
+    "email": "ectj.corp@gmail.com",
+    "facebook": "https://www.facebook.com/EnglishClubTijuana",
+    "youtube": "youtube.com"
+  },
+  "Interview": {
+    "name":"Write your first name",
+    "lastName":"Write your last name",
+    "labelEmail":"Write your email",
+    "labelPhone":"Write your telephone number",
+    "language":"What language do you speak?",
+    "whereYouFindUs":"How did you hear about us?",
+    "en":"English",
+    "es":"Spanish",
+    "internet":"internet",
+    "socialNetowork":"Social network",
+    "friend":"Friend",
+    "liveStream":"Live stream",
+    "description":"Please fill out the form and we will contact you promptly.",
+    "sendMessage":"Send message",
+    "title":"Interview",
+    "link":"#interview"
+
+  },
+  "Values": {
+    "link":"#values",
+    "values":
+    [
+      {
+        "icon": "fa fa-comments-o",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "icon": "fa fa-group",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "icon": "fa fa-magic",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      }
+    ]
+  },
+  "Footer":{
+	"copyright": "© 2021 Copyright: English Club",
+  "facebook": "https://www.facebook.com/EnglishClubTijuana",
+  "youtube": "https://www.youtube.com"
+  }
+}
