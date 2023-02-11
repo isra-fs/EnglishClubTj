@@ -1,38 +1,13 @@
-import { useState } from 'react'
-// import emailjs from 'emailjs-com'
+import { useForm } from '@formspree/react';
 
-const initialState = {
-  name: '',
-  email: '',
-  message: '',
-}
 const Interview = props => {
-    
-    const [{ name, email, message }, setState] = useState(initialState)
-
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
-  const clearState = () => setState({ ...initialState })
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // console.log(name, email, message)
-    // emailjs
-    //   .sendForm(
-    //     'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text)
-    //       clearState()
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     }
-    //   )
-  }
+    const [state, handleSubmit] = useForm("xyyvgalq");
+    const  handleSubmitted = (e) => {
+        e.target.reset();
+        setTimeout(()=>{
+          window.location.reload();
+        },2000)
+     }
     return (
         <div className="modal  fade" id="interviewPopup" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div className="modal-dialog">
@@ -44,7 +19,10 @@ const Interview = props => {
                     <div className="modal-body" style={{ backgroundColor: "#612A60" }}>
                         <div>
 
-                                            <form name='sentMessage' validate="true" onSubmit={handleSubmit} >
+                                            <form name='sentMessage' id="sentMessage" validate="true" onSubmit={(e)=>{
+                                                handleSubmit(e);
+                                                handleSubmitted(e);
+                                            }} >
                                                 <div className='row'>
                                                     <div className='col-md-6'>
                                                         <div className='form-group'>
@@ -55,7 +33,7 @@ const Interview = props => {
                                                                 className='form-control'
                                                                 placeholder={props.interview.name}
                                                                 required
-                                                                onChange={handleChange}
+                                                                
                                                             />
                                                             <p className='help-block text-danger'></p>
                                                         </div>
@@ -69,7 +47,7 @@ const Interview = props => {
                                                                 className='form-control'
                                                                 placeholder={props.interview.lastName}
                                                                 required
-                                                                onChange={handleChange}
+                                                                
                                                             />
                                                             <p className='help-block text-danger'></p>
                                                         </div>
@@ -86,7 +64,7 @@ const Interview = props => {
                                                                 className='form-control'
                                                                 placeholder={props.interview.labelEmail}
                                                                 required
-                                                                onChange={handleChange}
+                                                                
                                                             />
                                                             <p className='help-block text-danger'></p>
                                                         </div>
@@ -100,7 +78,7 @@ const Interview = props => {
                                                                 className='form-control'
                                                                 placeholder={props.interview.labelPhone}
                                                                 required
-                                                                onChange={handleChange}
+                                                                
                                                             />
                                                             <p className='help-block text-danger'></p>
                                                         </div>
@@ -110,7 +88,7 @@ const Interview = props => {
                                                     
                                                     <div className='col-md-6'>
                                                         <div className='form-group'>
-                                                            <select className="form-control placeholder">
+                                                            <select className="form-control placeholder" name="language"> 
                                                                 <option value="">{props.interview.language}</option>
                                                                 <option value="es">{props.interview.es}</option>
                                                                 <option value="en">{props.interview.en}</option>
@@ -120,7 +98,7 @@ const Interview = props => {
                                                     </div>
                                                     <div className='col-md-6'>
                                                         <div className='form-group'>
-                                                            <select className="form-control placeholder">
+                                                            <select className="form-control placeholder" name="whereYouFindUs">
                                                                 <option value="">{props.interview.whereYouFindUs}</option>
                                                                 <option value="internet">{props.interview.internet}</option>
                                                                 <option value="Social Networks">{props.interview.socialNetowork}</option>
@@ -137,7 +115,7 @@ const Interview = props => {
                                                         rows='4'
                                                         placeholder='Message'
                                                         required
-                                                        onChange={handleChange}
+                                                        
                                                     ></textarea>
                                                     <p className='help-block text-danger'></p>
                                                 </div>
@@ -152,8 +130,6 @@ const Interview = props => {
                                 </div>
 
                             </div>
-
-                     
         </div>
     )
 }

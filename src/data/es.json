@@ -21,18 +21,18 @@
   },
   "About": {
     "title":"About Us",
-    "labelMision":"Nuestra Mision",
-    "labelMotivation":"Motivation",
-    "labelTeachingMethod":"Teaching Method",
+    "labelMision":"Nuestra Misión",
+    "labelMotivation":"Motivación",
+    "labelTeachingMethod":"Método de Enseñanza",
     "labelOurCompanyIdeology":"Our Company Ideology",
     "link":"#about",
     "mission":"To teach with great dedication and responsibility to all the people that desire to obtain new communication abilities which will allow them to obtain better development opportunities in their personal and professional lives.",
-    "aboutUs": "We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "aboutUs": "Somos una empresa joven creada en Tijuana, México y en constante crecimiento, comprometidos con la mejora continua de nuestros servicios. Estamos convencidos que las oportunidades son creadas diariamente por lo cual es el trabajo, la constancia y el hecho de que nos exigimos los estándares más altos, lo que nos distingue de los demás.",
     "motivation": [
-      "Our students recommends us to family and friends.",
-      "Our commercial partners that trust us with tutoring their collaborators.",
-      "Our teachers, which feel proud to be part of our team and are treated fairly .",
-      "Serving our community, satisfying the need to communicate in a second language as part of their everyday lives in the biggest and busiest border in the world."
+      "Nuestros estudiantes nos recomiendan a familiares y amigos.",
+      "Nuestros socios comerciales confían en nosotros para la tutoría de sus colaboradores.",
+      "Nuestros profesores se sienten orgullosos de formar parte de nuestro equipo y reciben un trato justo.",
+      "Sirviendo a nuestra comunidad, satisfaciendo la necesidad de comunicarse en un segundo idioma como parte de su vida cotidiana en la frontera más transitada del mundo."
     ],
     "ourCompanyIdeology": [
       "If you can dream it, you can do it!  Walt Disney.",
@@ -40,10 +40,10 @@
       "The best wat to predict the future is to create it!  Abraham Lincoln."
     ],
     "teachingMethod":[
-      "We develop the four essential abilities for communication, we begin with the listening ability to subsequently speak, read and write",
-      "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
-      "Finally, we develop reading and writing abilities the remaining 20% of the time in which the teacher explains the grammar content of the class theme.",
-      "We use custom Link supportive teaching materials."
+      "Desarrollamos 4 diferente habilidades para la comunicación. Empezamos por escuchar, después el habla, lectura y escritura",
+      "Las primeras dos habilidades son desarrolladas durante un 80% del tiempo de clase, usando recursos tales como ejercicios de repetición, presentaciones, conversaciones en grupo, videos y música entre otras.",
+      "Finalmente, desarrollamos la lectura y escritura el 20% restante del tiempo donde el maestro explica el objetivo de la clase."
+
     ]
   },
   "Services": {
@@ -54,17 +54,17 @@
       {
         "icon": "englishClases.svg",
         "name": "Clases de inglés para el público en general",
-        "text": "Diseñados para ayudar a personas que manejan el inglés como segundo idioma, a sobresalir en ambeintes sociales, académicos y profesionales."
+        "text": "Diseñados para ayudar a personas que manejan el inglés como segundo idioma, a sobresalir en ambiente sociales, académicos y profesionales."
       },
       {
         "icon": "spanishClases.svg",
         "name": "Clases de español para extranjeros.",
-        "text": "A través de nuestras clases de español co-ayudamos a la pronta integración a nuestra cultura a todas aquellas personas que por necesidades de negocios o decisión propia radiquen en nuestro país. El poder comunicarse efectivamente, sin duda fomenta el sentido de pertenencia y bienestar general a la vez que facilita los estudios, el emprendimiento y los negocios. ."
+        "text": "A través de nuestras clases de español co-ayudamos a la pronta integración a nuestra cultura a todas aquellas personas que por necesidades de negocios o decisión propia radiquen en nuestro país. El poder comunicarse efectivamente, sin duda fomenta el sentido de pertenencia y bienestar general a la vez que facilita los estudios, el emprendimiento y los negocios..."
       },
       {
         "icon": "academic.svg",
         "name": "Nivelación Académica",
-        "text": "Especificaménte diseñado para propositos academicos. Alumnos de secundaria, Preparatoria y Universidad puedes recibir ayuda personal para alcanzar la meta para ESE examen o desarollo del idioma que sea necesario."
+        "text": "Especificaménte diseñado para propositos académicos. Alumnos de secundaria, preparatoria y universidad puedes recibir ayuda personal para alcanzar la meta para ESE examen o desarollo del idioma que sea necesario."
       },
       {
         "icon": "children.svg",
@@ -76,12 +76,12 @@
   "Clases": {
     "link":"#clases",
     "title":"Clases",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+    "description":"Ofrecemos diferentes tipos de cursos dependiendo de las necesidades e intereses del cliente.",
     "clases":[
        {
          "icon": "personalized.svg",
          "name": "Personalizadas",
-         "text": "Las clases personalizadas están adaptadas a las necesidades del alumno, no importa el nivel de inglés que tengas, con la enseñanza comopletamente. El maestro inicia con un  nivel de ingles que es entendible por el alumno, garantizando un aprendizaje eficiente y rápido para completar esas metas a corto plazo."
+         "text": "Las clases personalizadas están adaptadas a las necesidades del alumno, no importa el nivel de inglés que tengas, con la enseñanza comopletamente. El maestro inicia con un  nivel de inglés que es entendible por el alumno, garantizando un aprendizaje eficiente y rápido para completar esas metas a corto plazo."
        },
        {
          "icon": "intensive.svg",
@@ -91,12 +91,12 @@
        {
          "icon": "englishBusiness.svg",
          "name": "Inglés de negocios",
-         "text": "Este curso esta diseñado para esas personas que desean expandir su vocabulario technico para mejorar en su hambiente profesional."
+         "text": "Este curso esta diseñado para esas personas que desean expandir su vocabulario técnico para mejorar en su ambiente profesional."
        },
 	      {
       "icon": "workshops.svg",
       "name": "Talleres para Negocios",
-      "text": "Cuentas con excelentes colaboradores, pero necesitan mejorar sus habilidades de comunicación en inglés. Opta por nuestros tallers personalizados para tu empresa. Nuestros instructores son expertos en desarrollar estas habilidades en un ambiente cálido y relajado, pero a la vez profesional. Los talleres se diseñan en base a las necesidades del cliente y asignamos instructores con acento neutro(nativio de USA) para ayudar a nuestros estudiantes a hablar de manera natural y fluida. Contamos con paquetse y descuentos para negocios. Para asegurar la calidad y aprovechamiento de la clase trabajamos con grupos de máximo 10 alumnos. Los grupos se organizan previo examen de colocación de los alumnos."
+      "text": "Cuentas con excelentes colaboradores pero, ¿necesitan mejorar sus habilidades de comunicación en inglés?. Opta por nuestros talleres personalizados para tu empresa. Nuestros instructores son expertos en desarrollar estas habilidades en un ambiente cálido y relajado, pero a la vez profesional. Los talleres se diseñan en base a las necesidades del cliente y asignamos instructores con acento neutro(nativo de USA) para ayudar a nuestros estudiantes a hablar de manera natural y fluida. Contamos con paquete y descuentos para negocios. Para asegurar la calidad y aprovechamiento de la clase trabajamos con grupos de máximo 10 alumnos. Los grupos se organizan previo examen de colocación de los alumnos."
         }
      ]
    },
@@ -115,13 +115,13 @@
       "img": "img/team/venny.jpg",
       "name": "Venny",
       "job": "Director/Project Manager/Maestro de inglées.",
-      "bio":"Solo soy un chamaco de Mexico, tratando de divertirme en cada oportunidad posible mientras innovando y empujando al mas aya. La competicion es mi mas grande motivación."
+      "bio":"Solo soy un chamaco de México, tratando de divertirme en cada oportunidad posible mientras innovando y empujando al mas aya. La competicion es mi mas grande motivación."
     },
     {
       "img": "img/team/maribel.jpeg",
       "name": "Maribel",
       "job": "HR Manager/Maestra de inglés",
-      "bio":"Soy una maestra que nacio y fue criada en Tijuana. Amo enseñar inglés por es emocionante, un reto y gratificante. Ademas, me deja establecer lazos con mis alumnos y ser testiga experiencas que cambian la vida de la gente. Por cierto, puedo resopnder preguntas muy raras y estar informada con eventos en Mexico y en el extranjero.."
+      "bio":"Soy una maestra que nacio y fue criada en Tijuana. Amo enseñar inglés por es emocionante, un reto y gratificante. Ademas, me deja establecer lazos con mis alumnos y ser testiga experiencas que cambian la vida de la gente. Por cierto, puedo resopnder preguntas muy raras y estar informada con eventos en México y en el extranjero..."
     },
     {
       "img": "img/team/enrique.jpeg",
@@ -148,7 +148,7 @@
     "description":"Complete el siguiente formulario para enviarnos un correo electrónico y nos pondremos en contacto con usted lo antes posible.",
     "link":"#contact",
     "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
-    "phone": "664 211 9314",
+    "phone": "(664) 670-6377",
     "email": "ectj.corp@gmail.com",
     "facebook": "https://www.facebook.com/EnglishClubTijuana",
     "youtube": "youtube.com"
@@ -199,8 +199,8 @@
     ]
   },
   "Footer":{
-	"copyright": "© 2021 Copyright: English Club",
+	"copyright": "© 2022 Copyright: The English Club Academy S.A.S",
   "facebook": "https://www.facebook.com/EnglishClubTijuana",
-  "youtube": "https://www.youtube.com"
+  "youtube": "https://www.youtube.com/channel/UCEwTAkxFV5hVPStUsSA471A"
   }
 }

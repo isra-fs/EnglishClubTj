@@ -1,37 +1,15 @@
-import { useState } from 'react'
-// import emailjs from 'emailjs-com'
 
-const initialState = {
-  name: '',
-  email: '',
-  message: '',
-}
+import { useForm, ValidationError } from '@formspree/react';
+
 export const Contact = (props) => {
-   const [{ name, email, message }, setState] = useState(initialState)
+   const [state, handleSubmit] = useForm("xyyvgalq");
 
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
-  const clearState = () => setState({ ...initialState })
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // console.log(name, email, message)
-    // emailjs
-    //   .sendForm(
-    //     'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text)
-    //       clearState()
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     }
-    //   )
-  }
+ const  handleSubmitted = (e) => {
+    e.target.reset();
+	setTimeout(()=>{
+		window.location.reload();
+	},2000)
+ }
   return (
     <div>
       <div id='contact'>
@@ -44,7 +22,9 @@ export const Contact = (props) => {
                   {props.data.description}
                 </p>
               </div>
-              <form name='sentMessage' validate="true" onSubmit={handleSubmit}>
+              <form name='sentMessage' validate="true"  onSubmit={(e)=>{
+				handleSubmit(e) 
+				handleSubmitted(e)}} id="sendMessageForm">
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -55,8 +35,12 @@ export const Contact = (props) => {
                         className='form-control'
                         placeholder='Name'
                         required
-                        onChange={handleChange}
                       />
+					  <ValidationError 
+						prefix="Name" 
+						field="name"
+						errors={state.errors}
+						/>
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
@@ -69,8 +53,12 @@ export const Contact = (props) => {
                         className='form-control'
                         placeholder='Email'
                         required
-                        onChange={handleChange}
                       />
+						<ValidationError 
+						prefix="Email" 
+						field="email"
+						errors={state.errors}
+						/>
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
@@ -83,8 +71,12 @@ export const Contact = (props) => {
                     rows='4'
                     placeholder='Message'
                     required
-                    onChange={handleChange}
                   ></textarea>
+				  <ValidationError 
+						prefix="message" 
+						field="message"
+						errors={state.errors}
+						/>
                   <p className='help-block text-danger'></p>
                 </div>
                 <div id='success'></div>

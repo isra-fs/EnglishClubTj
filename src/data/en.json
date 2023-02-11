@@ -2,7 +2,7 @@
   "HeaderLinks":[
     { "link":"services","title":"Services"},
     { "link":"about","title":"About"},
-	  { "link":"clases","title":"Clases"},
+	  { "link":"clases","title":"Classes"},
     { "link":"testimonials","title":"Testimonials"},
     { "link":"team","title":"Team"} ,
     { "link":"contact","title":"Contact"} 
@@ -27,12 +27,12 @@
     "labelOurCompanyIdeology":"Our Company Ideology",
     "link":"#about",
     "mission":"To teach with great dedication and responsibility to all the people that desire to obtain new communication abilities which will allow them to obtain better development opportunities in their personal and professional lives.",
-    "aboutUs": "We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "aboutUs": "We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, constancy and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
     "motivation": [
-      "Our students recommends us to family and friends.",
+      "Our students recommend us to family and friends.",
       "Our commercial partners that trust us with tutoring their collaborators.",
       "Our teachers, which feel proud to be part of our team and are treated fairly .",
-      "Serving our community, satisfying the need to communicate in a second language as part of their everyday lives in the biggest and busiest border in the world."
+      "Serving our community, satisfying the need to communicate in a second language as part of their everyday lives in the busiest border in the world."
     ],
     "ourCompanyIdeology": [
       "If you can dream it, you can do it!  Walt Disney.",
@@ -42,7 +42,7 @@
     "teachingMethod":[
       "We develop the four essential abilities for communication, we begin with the listening ability to subsequently speak, read and write",
       "The first two abilities are developed during 80% of the effective class time, using resources such as repetition exercises, presentations, group interviews, videos or songs among others.",
-      "Finally, we develop reading and writing abilities the remaining 20% of the time in which the teacher explains the grammar content of the class theme.",
+      "The remaining 20% of the time we develop reading and writing abilities focused on targeting the content at hand.",
       "We use custom Link supportive teaching materials."
     ]
   },
@@ -59,7 +59,7 @@
       {
         "icon": "spanishClases.svg",
         "name": "Spanish Language Courses",
-        "text": "Through out Spanish classes we provide non Hispanics the tools to integrate into ouir culture promptly. Helping people communicate effectively in their studies, entrepreneurship and business life."
+        "text": "Through our Spanish classes we provide non Hispanics the tools to integrate into our culture promptly. Helping people communicate effectively in their studies, entrepreneurship and business life."
       },
       {
         "icon": "academic.svg",
@@ -69,7 +69,7 @@
       {
         "icon": "children.svg",
         "name": "English for young children (ages 4 and up)",
-        "text": "The method we use is interactive and dynamic, which helps young students acquire the language through real conversations, in between teaching and games, they will be acquiring the English knowledge in a intuitive and fun manner through the online experience."
+        "text": "The method we use is interactive and dynamic, which helps young students acquire the language through real conversations, between teaching and games, they will be acquiring the English knowledge in a intuitive and fun manner through the online experience."
       }
     ]
   },
@@ -108,7 +108,7 @@
   "Team":{
     "link":"#team",
     "title":"Team",
-    "description":"We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, consistency and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
+    "description":"We are a young English educational company created in Tijuana, Mexico and in constant growth, committed to constantly improving our services. We are convinced that opportunities are created daily and it is the hard work, constancy and the fact that we demand ourselves the highest levels of quality that distinguish us from the rest.",
     "moreAbout":"More About",
     "team":[
     {
@@ -148,7 +148,7 @@
     "description":"Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "link":"#contact",
     "address": "BLVD INSURGENTES #8902, LOCAL 5, PLAZA GRAN FLORIDO, EL FLORIDO 1RA SECCIÓN, C.P. 22223 ",
-    "phone": "664 211 9314",
+    "phone": "(664) 670-6377",
     "email": "ectj.corp@gmail.com",
     "facebook": "https://www.facebook.com/EnglishClubTijuana",
     "youtube": "youtube.com"
@@ -199,8 +199,8 @@
     ]
   },
   "Footer":{
-	"copyright": "© 2021 Copyright: English Club",
+	"copyright": "© 2022 Copyright: The English Club Academy S.A.S",
   "facebook": "https://www.facebook.com/EnglishClubTijuana",
-  "youtube": "https://www.youtube.com"
+  "youtube": "https://www.youtube.com/channel/UCEwTAkxFV5hVPStUsSA471A"
   }
 }
